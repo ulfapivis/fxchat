@@ -51,7 +51,7 @@ export const Badge = (props: Props) => {
       "text-align": 'center',
       color: props.poweredByTextColor ?? defaultTextColor,
       "background-color": props.badgeBackgroundColor ?? '#ffffff'
-    }}>AI Chat by
+    }}>fxrsoft 
       <a
         ref={liteBadge}
         href={'https://fxrsoft.com'}
