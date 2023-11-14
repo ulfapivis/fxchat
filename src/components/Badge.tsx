@@ -51,7 +51,7 @@ export const Badge = (props: Props) => {
       "text-align": 'center',
       color: props.poweredByTextColor ?? defaultTextColor,
       "background-color": props.badgeBackgroundColor ?? '#ffffff'
-    }}>fxrsoft 
+    }}>AI Chat 
       <a
         ref={liteBadge}
         href={'https://fxrsoft.com'}
@@ -61,7 +61,7 @@ export const Badge = (props: Props) => {
         id="lite-badge"
         style={{ "font-weight": 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> </span>
+        <span> fxrsoft</span>
       </a>
     </span>
   )
